@@ -1,0 +1,28 @@
+CRITICAL - 2022-06-20 10:06:57 --> Undefined property: App\Controllers\Transaksi::$courseModel
+#0 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\app\Controllers\Transaksi.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 116, Array)
+#1 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(832): App\Controllers\Transaksi->bukti('16')
+#2 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-20 10:07:25 --> Undefined property: App\Controllers\Transaksi::$courseModel
+#0 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\app\Controllers\Transaksi.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 116, Array)
+#1 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(832): App\Controllers\Transaksi->bukti('16')
+#2 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-20 10:07:46 --> Undefined index: foto
+#0 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\app\Views\transaction.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Xampp\\htdocs...', 106, Array)
+#1 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\Common.php(1089): CodeIgniter\View\View->render('transaction', Array, true)
+#4 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\app\Controllers\Transaksi.php(32): view('transaction', Array)
+#5 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(832): App\Controllers\Transaksi->index('nyomanari21', 'user')
+#6 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\desainweb\kelas\tubes\tubesweb\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
